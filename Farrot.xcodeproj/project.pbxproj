@@ -19,6 +19,7 @@
 		700904C11C5ADFE300363892 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700904BF1C5ADFE300363892 /* SplashViewController.m */; };
 		700904C51C5AE09600363892 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 700904C41C5AE09600363892 /* BackgroundLayer.m */; };
 		700904C71C5AE0CA00363892 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700904C61C5AE0CA00363892 /* QuartzCore.framework */; };
+		7035E8A31C618325008B0222 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7035E8A21C618325008B0222 /* AboutViewController.m */; };
 		704260691C5826E8005098F8 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704260671C5826E8005098F8 /* SettingViewController.m */; };
 		70973A6C1C558A0B00CA2578 /* awesomemorning_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70973A5D1C558A0A00CA2578 /* awesomemorning_alarm.mp3 */; };
 		70973A6D1C558A0B00CA2578 /* best_wake_up_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70973A5E1C558A0A00CA2578 /* best_wake_up_sound.mp3 */; };
@@ -68,15 +69,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C42DD651C51ABC60027350B /* FarrotC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarrotC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C42DD651C51ABC60027350B /* Farrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C42DD691C51ABC60027350B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C42DD6B1C51ABC60027350B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C42DD6C1C51ABC60027350B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0C42DD6E1C51ABC60027350B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0C42DD6F1C51ABC60027350B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		0C42DD721C51ABC60027350B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C42DD741C51ABC60027350B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C42DD771C51ABC60027350B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C42DD791C51ABC60027350B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C42DEA41C538EC00027350B /* ic_action_sound_note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_sound_note.png; sourceTree = "<group>"; };
 		0C42DEA61C53B5C70027350B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -86,6 +85,12 @@
 		700904C31C5AE09600363892 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
 		700904C41C5AE09600363892 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
 		700904C61C5AE0CA00363892 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7035E89C1C617B40008B0222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7035E89D1C617B40008B0222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7035E89F1C617BA1008B0222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7035E8A01C61816A008B0222 /* Farrot.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = Farrot.profdata; sourceTree = "<group>"; };
+		7035E8A11C618325008B0222 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		7035E8A21C618325008B0222 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		704260661C5826E8005098F8 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		704260671C5826E8005098F8 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		70973A5D1C558A0A00CA2578 /* awesomemorning_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = awesomemorning_alarm.mp3; sourceTree = "<group>"; };
@@ -157,7 +162,7 @@
 				700904C61C5AE0CA00363892 /* QuartzCore.framework */,
 				0C42DEC71C53BCDE0027350B /* AVFoundation.framework */,
 				0C42DEA61C53B5C70027350B /* AudioToolbox.framework */,
-				0C42DD671C51ABC60027350B /* FarrotC */,
+				0C42DD671C51ABC60027350B /* Farrot */,
 				0C42DD661C51ABC60027350B /* Products */,
 				70D6134C1C5F3102002D3BB5 /* OptimizationProfiles */,
 			);
@@ -166,12 +171,12 @@
 		0C42DD661C51ABC60027350B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C42DD651C51ABC60027350B /* FarrotC.app */,
+				0C42DD651C51ABC60027350B /* Farrot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C42DD671C51ABC60027350B /* FarrotC */ = {
+		0C42DD671C51ABC60027350B /* Farrot */ = {
 			isa = PBXGroup;
 			children = (
 				70D6134A1C5F2E9C002D3BB5 /* icon */,
@@ -183,6 +188,7 @@
 				0C42DD791C51ABC60027350B /* Info.plist */,
 				0C42DD681C51ABC60027350B /* Supporting Files */,
 			);
+			name = Farrot;
 			path = FarrotC;
 			sourceTree = "<group>";
 		};
@@ -267,6 +273,8 @@
 				700904BF1C5ADFE300363892 /* SplashViewController.m */,
 				700904C31C5AE09600363892 /* BackgroundLayer.h */,
 				700904C41C5AE09600363892 /* BackgroundLayer.m */,
+				7035E8A11C618325008B0222 /* AboutViewController.h */,
+				7035E8A21C618325008B0222 /* AboutViewController.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -284,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				70D6134D1C5F3102002D3BB5 /* FarrotC.profdata */,
+				7035E8A01C61816A008B0222 /* Farrot.profdata */,
 			);
 			path = OptimizationProfiles;
 			sourceTree = "<group>";
@@ -291,9 +300,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C42DD641C51ABC60027350B /* FarrotC */ = {
+		0C42DD641C51ABC60027350B /* Farrot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C42DD7C1C51ABC60027350B /* Build configuration list for PBXNativeTarget "FarrotC" */;
+			buildConfigurationList = 0C42DD7C1C51ABC60027350B /* Build configuration list for PBXNativeTarget "Farrot" */;
 			buildPhases = (
 				0C42DD611C51ABC60027350B /* Sources */,
 				0C42DD621C51ABC60027350B /* Frameworks */,
@@ -303,9 +312,9 @@
 			);
 			dependencies = (
 			);
-			name = FarrotC;
+			name = Farrot;
 			productName = FarrotC;
-			productReference = 0C42DD651C51ABC60027350B /* FarrotC.app */;
+			productReference = 0C42DD651C51ABC60027350B /* Farrot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -328,7 +337,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0C42DD601C51ABC60027350B /* Build configuration list for PBXProject "FarrotC" */;
+			buildConfigurationList = 0C42DD601C51ABC60027350B /* Build configuration list for PBXProject "Farrot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -341,7 +350,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C42DD641C51ABC60027350B /* FarrotC */,
+				0C42DD641C51ABC60027350B /* Farrot */,
 			);
 		};
 /* End PBXProject section */
@@ -411,6 +420,7 @@
 			files = (
 				0C42DD701C51ABC60027350B /* ViewController.m in Sources */,
 				700904C51C5AE09600363892 /* BackgroundLayer.m in Sources */,
+				7035E8A31C618325008B0222 /* AboutViewController.m in Sources */,
 				0C42DD6D1C51ABC60027350B /* AppDelegate.m in Sources */,
 				0C42DD6A1C51ABC60027350B /* main.m in Sources */,
 				704260691C5826E8005098F8 /* SettingViewController.m in Sources */,
@@ -425,7 +435,8 @@
 		0C42DD711C51ABC60027350B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C42DD721C51ABC60027350B /* Base */,
+				7035E89C1C617B40008B0222 /* Base */,
+				7035E89F1C617BA1008B0222 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -433,7 +444,7 @@
 		0C42DD761C51ABC60027350B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C42DD771C51ABC60027350B /* Base */,
+				7035E89D1C617B40008B0222 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -532,8 +543,8 @@
 				INFOPLIST_FILE = FarrotC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.summedia.FarrotC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summedia.Farrot;
+				PRODUCT_NAME = Farrot;
 			};
 			name = Debug;
 		};
@@ -546,15 +557,15 @@
 				INFOPLIST_FILE = FarrotC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.summedia.FarrotC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.summedia.Farrot;
+				PRODUCT_NAME = Farrot;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C42DD601C51ABC60027350B /* Build configuration list for PBXProject "FarrotC" */ = {
+		0C42DD601C51ABC60027350B /* Build configuration list for PBXProject "Farrot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C42DD7A1C51ABC60027350B /* Debug */,
@@ -563,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C42DD7C1C51ABC60027350B /* Build configuration list for PBXNativeTarget "FarrotC" */ = {
+		0C42DD7C1C51ABC60027350B /* Build configuration list for PBXNativeTarget "Farrot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C42DD7D1C51ABC60027350B /* Debug */,

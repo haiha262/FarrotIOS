@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Set"; ObjectID = "6YD-rJ-AoX"; */
+"6YD-rJ-AoX.normalTitle" = "Set";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "LWV-Ma-pI1"; */
+"LWV-Ma-pI1.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "Vibrate"; ObjectID = "OAN-Df-wxq"; */
+"OAN-Df-wxq.text" = "Vibrate";
+
+/* Class = "UIButton"; normalTitle = "Set"; ObjectID = "Qjw-WX-VDc"; */
+"Qjw-WX-VDc.normalTitle" = "Set";
+
+/* Class = "UILabel"; text = "2nd Reminder "; ObjectID = "S8J-PA-YmA"; */
+"S8J-PA-YmA.text" = "2nd Reminder ";
+
+/* Class = "UILabel"; text = "1st Reminder "; ObjectID = "TPL-5Q-XqS"; */
+"TPL-5Q-XqS.text" = "1st Reminder ";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "dMi-5S-KfK"; */
+"dMi-5S-KfK.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "dYi-kf-h7d"; */
+"dYi-kf-h7d.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "fVZ-zz-tea"; */
+"fVZ-zz-tea.text" = "Setting";
+
+/* Class = "UILabel"; text = "Press to continue"; ObjectID = "jf8-v3-75r"; */
+"jf8-v3-75r.text" = "Press to continue";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "zpW-Is-mOI"; */
+"zpW-Is-mOI.text" = "Setting";

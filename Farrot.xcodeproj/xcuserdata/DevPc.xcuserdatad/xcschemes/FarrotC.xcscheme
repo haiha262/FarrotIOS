@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C42DD641C51ABC60027350B"
-               BuildableName = "FarrotC.app"
-               BlueprintName = "FarrotC"
-               ReferencedContainer = "container:FarrotC.xcodeproj">
+               BuildableName = "Farrot.app"
+               BlueprintName = "Farrot"
+               ReferencedContainer = "container:Farrot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C42DD641C51ABC60027350B"
-            BuildableName = "FarrotC.app"
-            BlueprintName = "FarrotC"
-            ReferencedContainer = "container:FarrotC.xcodeproj">
+            BuildableName = "Farrot.app"
+            BlueprintName = "Farrot"
+            ReferencedContainer = "container:Farrot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C42DD641C51ABC60027350B"
-            BuildableName = "FarrotC.app"
-            BlueprintName = "FarrotC"
-            ReferencedContainer = "container:FarrotC.xcodeproj">
+            BuildableName = "Farrot.app"
+            BlueprintName = "Farrot"
+            ReferencedContainer = "container:Farrot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C42DD641C51ABC60027350B"
-            BuildableName = "FarrotC.app"
-            BlueprintName = "FarrotC"
-            ReferencedContainer = "container:FarrotC.xcodeproj">
+            BuildableName = "Farrot.app"
+            BlueprintName = "Farrot"
+            ReferencedContainer = "container:Farrot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
