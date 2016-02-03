@@ -20,6 +20,7 @@
 		700904C51C5AE09600363892 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 700904C41C5AE09600363892 /* BackgroundLayer.m */; };
 		700904C71C5AE0CA00363892 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700904C61C5AE0CA00363892 /* QuartzCore.framework */; };
 		7035E8A31C618325008B0222 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7035E8A21C618325008B0222 /* AboutViewController.m */; };
+		7035E8AA1C6189FD008B0222 /* Facebook-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7035E8A91C6189FD008B0222 /* Facebook-logo.png */; };
 		704260691C5826E8005098F8 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704260671C5826E8005098F8 /* SettingViewController.m */; };
 		70973A6C1C558A0B00CA2578 /* awesomemorning_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70973A5D1C558A0A00CA2578 /* awesomemorning_alarm.mp3 */; };
 		70973A6D1C558A0B00CA2578 /* best_wake_up_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70973A5E1C558A0A00CA2578 /* best_wake_up_sound.mp3 */; };
@@ -91,6 +92,10 @@
 		7035E8A01C61816A008B0222 /* Farrot.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = Farrot.profdata; sourceTree = "<group>"; };
 		7035E8A11C618325008B0222 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		7035E8A21C618325008B0222 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		7035E8A61C618647008B0222 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7035E8A81C618650008B0222 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7035E8A91C6189FD008B0222 /* Facebook-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-logo.png"; sourceTree = "<group>"; };
+		7035E8AC1C61989B008B0222 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
 		704260661C5826E8005098F8 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		704260671C5826E8005098F8 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		70973A5D1C558A0A00CA2578 /* awesomemorning_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = awesomemorning_alarm.mp3; sourceTree = "<group>"; };
@@ -203,6 +208,7 @@
 		0C42DD811C51B9E90027350B /* imageRes */ = {
 			isa = PBXGroup;
 			children = (
+				7035E8A91C6189FD008B0222 /* Facebook-logo.png */,
 				70A71BBA1C58879300B5F8D9 /* ic_action_checked.png */,
 				709DE0A11C55A56C00CACF2C /* alarm_buddy.png */,
 				709DE0A21C55A56C00CACF2C /* bird.png */,
@@ -344,6 +350,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 0C42DD5C1C51ABC60027350B;
 			productRefGroup = 0C42DD661C51ABC60027350B /* Products */;
@@ -380,6 +387,7 @@
 				70A71BBB1C58879300B5F8D9 /* ic_action_checked.png in Resources */,
 				709DE0CD1C55A56C00CACF2C /* logo_summedia.png in Resources */,
 				0C42DD751C51ABC60027350B /* Assets.xcassets in Resources */,
+				7035E8AA1C6189FD008B0222 /* Facebook-logo.png in Resources */,
 				709DE0C61C55A56C00CACF2C /* f15p.png in Resources */,
 				709DE0C01C55A56C00CACF2C /* f1h.png in Resources */,
 				709DE0D61C55A56C00CACF2C /* thebirb.png in Resources */,
@@ -437,6 +445,7 @@
 			children = (
 				7035E89C1C617B40008B0222 /* Base */,
 				7035E89F1C617BA1008B0222 /* en */,
+				7035E8AC1C61989B008B0222 /* vi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -445,6 +454,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				7035E89D1C617B40008B0222 /* Base */,
+				7035E8A61C618647008B0222 /* en */,
+				7035E8A81C618650008B0222 /* vi */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

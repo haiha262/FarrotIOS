@@ -10,6 +10,6 @@
 
 @interface AboutViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *credit;
+@property (strong, nonatomic) IBOutlet UITextView *credit;
 - (IBAction)backButton:(id)sender;
 @end

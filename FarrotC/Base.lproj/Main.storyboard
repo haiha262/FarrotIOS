@@ -534,20 +534,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4G4-eX-UUA">
-                                <rect key="frame" x="133" y="20" width="55" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Credit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5u-OZ-9fC">
-                                <rect key="frame" x="20" y="77" width="47" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B90-FY-sVD">
-                                <rect key="frame" x="20" y="16" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B90-FY-sVD">
+                                <rect key="frame" x="16" y="16" width="34" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="B90-FY-sVD" secondAttribute="height" multiplier="8:5" id="Ihm-GU-vbt"/>
                                 </constraints>
@@ -562,20 +550,51 @@
                                     <action selector="backButton:" destination="2nM-df-gAw" eventType="touchUpInside" id="55L-Am-Elh"/>
                                 </connections>
                             </button>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4G4-eX-UUA">
+                                <rect key="frame" x="137.5" y="20.5" width="46.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ahb-Pu-Bp3">
+                                <rect key="frame" x="8" y="430" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ahb-Pu-Bp3" secondAttribute="height" multiplier="1:1" id="LqY-gp-afK"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Facebook-logo.png"/>
+                                <connections>
+                                    <action selector="faceButton:" destination="2nM-df-gAw" eventType="touchUpInside" id="Oht-3J-2G8"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRH-N8-0s3">
+                                <rect key="frame" x="16" y="54" width="288" height="335"/>
+                                <string key="text">Company: Summedia 
+Artist: Danh Pham
+Developer: Able Tran
+Tester: Tien Jo - Tuan Anh </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="B90-FY-sVD" firstAttribute="top" secondItem="nsl-xy-Jsz" secondAttribute="bottom" constant="-4" id="3Dg-Be-iL3"/>
-                            <constraint firstItem="N5u-OZ-9fC" firstAttribute="top" secondItem="B90-FY-sVD" secondAttribute="bottom" constant="31" id="40D-Xc-uvM"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="N5u-OZ-9fC" secondAttribute="leading" id="FCC-F3-7Z0"/>
+                            <constraint firstItem="Ahb-Pu-Bp3" firstAttribute="leading" secondItem="x1Z-3m-aQX" secondAttribute="leadingMargin" constant="-8" id="5Dv-7e-Una"/>
+                            <constraint firstItem="Ahb-Pu-Bp3" firstAttribute="width" secondItem="x1Z-3m-aQX" secondAttribute="height" multiplier="1:16" id="FSg-0K-Odr"/>
+                            <constraint firstItem="DRH-N8-0s3" firstAttribute="top" secondItem="B90-FY-sVD" secondAttribute="bottom" constant="8" id="Gym-jq-biH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DRH-N8-0s3" secondAttribute="trailing" id="LUv-QA-dsX"/>
+                            <constraint firstItem="eKS-V6-kt0" firstAttribute="top" secondItem="Ahb-Pu-Bp3" secondAttribute="bottom" constant="20" id="Mt9-BZ-zBf"/>
+                            <constraint firstItem="Ahb-Pu-Bp3" firstAttribute="top" secondItem="DRH-N8-0s3" secondAttribute="bottom" constant="41" id="R6Q-ZH-slK"/>
                             <constraint firstAttribute="leadingMargin" secondItem="B90-FY-sVD" secondAttribute="leading" id="VZn-eK-j6r"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="DRH-N8-0s3" secondAttribute="leading" id="WJ6-G7-bPm"/>
                             <constraint firstItem="4G4-eX-UUA" firstAttribute="centerY" secondItem="B90-FY-sVD" secondAttribute="centerY" id="gyP-gR-ePY"/>
                             <constraint firstItem="4G4-eX-UUA" firstAttribute="centerX" secondItem="x1Z-3m-aQX" secondAttribute="centerX" id="pKy-Bt-ANk"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="credit" destination="N5u-OZ-9fC" id="C7c-GK-dCd"/>
+                        <outlet property="credit" destination="DRH-N8-0s3" id="MY8-tu-mfN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3kr-2m-SH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -584,6 +603,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Facebook-logo.png" width="252" height="252"/>
         <image name="alarm_buddy.png" width="199" height="56"/>
         <image name="clock_running.png" width="207" height="131"/>
         <image name="comment.png" width="231" height="221"/>

@@ -1,0 +1,44 @@
+/* Class = "UIButton"; normalTitle = "About"; ObjectID = "1UF-Ba-hvF"; */
+"1UF-Ba-hvF.normalTitle" = "Thông tin";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "4G4-eX-UUA"; */
+"4G4-eX-UUA.text" = "Thông tin";
+
+/* Class = "UIButton"; normalTitle = "Set"; ObjectID = "6YD-rJ-AoX"; */
+"6YD-rJ-AoX.normalTitle" = "Chấp nhận";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "B90-FY-sVD"; */
+"B90-FY-sVD.normalTitle" = "Quay lại";
+
+/* Class = "UITextView"; text = "Company: Summedia \nArtist: Danh Pham\nDeveloper: Able Tran\nTester: Tien Jo - Tuan Anh "; ObjectID = "DRH-N8-0s3"; */
+"DRH-N8-0s3.text" = "Công ty: Summedia \nThiết kế: Danh Pham\nLập trình viên: Able Tran\nKiểm tra: Tien Jo - Tuan Anh ";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "LWV-Ma-pI1"; */
+"LWV-Ma-pI1.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "Vibrate"; ObjectID = "OAN-Df-wxq"; */
+"OAN-Df-wxq.text" = "Rung";
+
+/* Class = "UIButton"; normalTitle = "Set"; ObjectID = "Qjw-WX-VDc"; */
+"Qjw-WX-VDc.normalTitle" = "Chọn";
+
+/* Class = "UILabel"; text = "2nd Reminder "; ObjectID = "S8J-PA-YmA"; */
+"S8J-PA-YmA.text" = "Nhắc lần 2";
+
+/* Class = "UILabel"; text = "1st Reminder "; ObjectID = "TPL-5Q-XqS"; */
+"TPL-5Q-XqS.text" = "Nhắc lần 1";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "dMi-5S-KfK"; */
+"dMi-5S-KfK.normalTitle" = "Bắt đầu";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "dYi-kf-h7d"; */
+"dYi-kf-h7d.normalTitle" = "Huỷ";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "fVZ-zz-tea"; */
+"fVZ-zz-tea.text" = "Tinh chỉnh";
+
+/* Class = "UILabel"; text = "Press to continue"; ObjectID = "jf8-v3-75r"; */
+"jf8-v3-75r.text" = "Chạm để tiếp tục";
+
+/* Class = "UILabel"; text = "Setting"; ObjectID = "zpW-Is-mOI"; */
+"zpW-Is-mOI.text" = "Tinh Chỉnh";
